@@ -1,0 +1,13 @@
+body {
+  background-color: #e5e0fd;
+  font-family: "Raleway", sans-serif;
+}
+
+.weather-app {
+  background-color: #8ea7e9;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 5px 10px 10px #576262;
+}
