@@ -1,5 +1,5 @@
 body {
-  background-color: #e5e0fd;
+  background-color: #fff;
   font-family: "Raleway", sans-serif;
 }
 
@@ -94,6 +94,9 @@ main {
 }
 .weather-forecast-icon {
   text-align: center;
+  width: 88px;
+  height: 88px;
+  margin: 0 auto;
 }
 .weather-forecast-temperature {
   font-size: 14px;
