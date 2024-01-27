@@ -100,7 +100,9 @@ main {
 }
 .weather-forecast-day {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   background-color: #e5e0fd;
   border-radius: 15px;
   padding: 5px;
@@ -110,6 +112,7 @@ main {
 .weather-forecast-temperatures {
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-top: 10px;
   gap: 10px;
@@ -121,10 +124,15 @@ main {
   margin: 0 auto;
 }
 .weather-forecast-temperature {
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: 100%;
+  color: rgb(176, 50, 149);
+}
+.weather-forecast-temperature-max {
   color: rgb(176, 50, 149);
 }
 .weather-forecast-temperature-min {
+  color: rgb(176, 50, 149);
   opacity: 0.5;
 }
 footer {
