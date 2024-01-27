@@ -57,7 +57,15 @@ function getForecast(city) {
 }
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
-  let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+  let days = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ];
 
   return days[date.getDay()];
 }
@@ -76,7 +84,7 @@ function displayForecast(response) {
   }"class="weather-forecast-icon"/></div>
   <div class="weather-forecast-temperatures">
     <div class="weather-forecast-temperature">
-      <strong>${Math.round(day.temperature.maximum)}º/</strong>
+      <strong>${Math.round(day.temperature.maximum)}º</strong>
     </div>
     <div class="weather-forecast-temperature"> ${Math.round(
       day.temperature.minimum
